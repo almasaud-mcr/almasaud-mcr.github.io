@@ -1,0 +1,14 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 23 Jul 2023 16:06:06 at http://127.0.0.1:5000/ +*.png +*.gif +*.jpg +*.jpeg -*.css -*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://127.0.0.1:5000/ -O1 "D:\DWHB_Site2\dwhb" +*.png +*.gif +*.jpg +*.jpeg -*.css -*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:06:30	Warning: 	Retry after error 500 (INTERNAL SERVER ERROR) at link 127.0.0.1:5000/stages/None (from 127.0.0.1:5000/constructs)
+16:06:55	Warning: 	Retry after error 500 () at link 127.0.0.1:5000/stages/None (from 127.0.0.1:5000/constructs)
+16:07:00	Error: 	"" (500) after 2 retries at link 127.0.0.1:5000/stages/None (from 127.0.0.1:5000/constructs)
+
+HTTrack Website Copier/3.49-2 mirror complete in 54 seconds : 98 links scanned, 94 files written (1313637 bytes overall) [1344762 bytes received at 24903 bytes/sec]
+(1 errors, 2 warnings, 0 messages)
